@@ -2,6 +2,11 @@
 
 ---
 
+# Preview:
+![Screenshot](./screenshot.png)
+
+---
+
 ## What does it do?
 
 - A modern looking landing page for a website using purely html and css. No frameworks, no JavaScript.
