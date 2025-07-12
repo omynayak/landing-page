@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Landing Page</title>
   </head>
@@ -16,14 +20,14 @@
           <a href="">header link three</a>
         </div>
       </header>
-      <div class="and-stuff">
+      <div class="and-stuff" data-aos="fade-up">
         <div class="hero">
           <h1>This website is awesome</h1>
           <p>
             I don't really know what I'm doing making this website when I have
-            an electromagnetic theory exam in 2 days, but I am sure having
-            fun!! Anyways here's a button for you to click on. It doesn't do
-            anything though:
+            an electromagnetic theory exam in 2 days, but I am sure having fun!!
+            Anyways here's a button for you to click on. It doesn't do anything
+            though:
           </p>
           <button>Sign up</button>
         </div>
@@ -32,7 +36,7 @@
         </div>
       </div>
     </div>
-    <div class="middle-section">
+    <div class="middle-section" data-aos="fade-up">
       <h2>Some random information.</h2>
       <div class="pictures">
         <div class="picture">
@@ -53,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="quote-div">
+    <div class="quote-div" data-aos="fade-down" data-aos-duration="1500">
       <aside>
         <i
           >“It is in no man's power to have whatever he wants, but he has it in
@@ -63,7 +67,7 @@
       </aside>
       <div class="by">- Seneca</div>
     </div>
-    <div class="call-to-action">
+    <div class="call-to-action" data-aos="fade-up" data-aos-duration="1500">
       <div class="text-cta">
         <h3>Limited time! Sign up to this thing!</h3>
         <p>Sign up to it by pressing the button right there!</p>
@@ -73,5 +77,9 @@
       </div>
     </div>
     <footer>Copyright &#169; Manel Om Nayak 2025</footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
